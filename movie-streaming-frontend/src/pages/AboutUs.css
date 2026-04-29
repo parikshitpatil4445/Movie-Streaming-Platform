@@ -1,0 +1,172 @@
+/* 🌑 Global Netflix Dark Background */
+.about-container {
+  min-height: 100vh;
+  background: #141414;
+  color: #fff;
+  font-family: 'Inter', sans-serif;
+}
+
+/* 🎬 Hero Section */
+.hero-section {
+  background: linear-gradient(to bottom, rgba(20, 20, 20, 0.5), #141414),
+    url("https://assets.nflxext.com/ffe/siteui/vlv3/f841d4c7-10e1-40af-bcae-07a3f8dc141a/f6d7434e-d6de-4185-a6d4-c77a2d08737b/US-en-20220502-popsignuptwoweeks-perspective_alpha_website_medium.jpg");
+  background-size: cover;
+  background-position: center;
+  padding: 150px 0 100px;
+  position: relative;
+  text-align: center;
+}
+
+.hero-title {
+  font-size: 4rem;
+  font-weight: 800;
+  margin-bottom: 1.5rem;
+  color: #ffffff;
+  text-shadow: 0 4px 12px rgba(0, 0, 0, 0.8);
+  letter-spacing: -1px;
+}
+
+.hero-description {
+  font-size: 1.25rem;
+  line-height: 1.6;
+  max-width: 800px;
+  margin: 0 auto;
+  color: #e5e5e5;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.8);
+}
+
+/* 🎯 Vision Section */
+.vision-section {
+  padding: 80px 0;
+  background: #141414;
+}
+
+.section-title {
+  font-size: 2.5rem;
+  color: #ffffff;
+  margin-bottom: 3rem;
+  font-weight: 700;
+  text-align: center;
+  letter-spacing: -0.5px;
+}
+
+.section-title span {
+  color: #e50914;
+}
+
+/* 🟥 Netflix Card Style */
+.vision-card {
+  background: linear-gradient(145deg, #1f1f1f, #181818);
+  border-radius: 8px;
+  padding: 2.5rem;
+  height: 100%;
+  border: 1px solid #333;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.vision-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.5);
+  border-color: #555;
+}
+
+.vision-title {
+  color: #e50914;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+}
+
+.vision-text {
+  color: #b3b3b3;
+  line-height: 1.6;
+  font-size: 1rem;
+}
+
+/* 👥 Team Section */
+.team-section {
+  padding: 80px 0;
+  background: #141414;
+}
+
+/* 🟥 Team Cards Netflix Style */
+.team-card {
+  border: none;
+  border-radius: 8px;
+  background: #181818;
+  overflow: hidden;
+  transition: 0.3s;
+  height: 100%;
+  position: relative;
+}
+
+.team-card:hover {
+  transform: scale(1.03);
+  z-index: 2;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.7);
+}
+
+.team-card-body {
+  padding: 2rem;
+  text-align: center;
+}
+
+/* 🟥 Profile Image Ring Red */
+.team-image {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid transparent;
+  background: linear-gradient(#181818, #181818) padding-box,
+    linear-gradient(45deg, #e50914, #b20710) border-box;
+  margin-bottom: 1.5rem;
+  transition: transform 0.3s ease;
+}
+
+.team-card:hover .team-image {
+  transform: scale(1.1);
+}
+
+.team-name {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 0.5rem;
+}
+
+.team-role {
+  color: #e50914;
+  font-weight: 600;
+  font-size: 0.95rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 1rem;
+}
+
+.team-description {
+  color: #999;
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+
+/* 🔻 Netflix Footer */
+.footer-section {
+  background: #000000;
+  padding: 40px 0;
+  border-top: 1px solid #333;
+  color: #757575;
+  font-size: 0.9rem;
+}
+
+/* 📱 Mobile Responsive */
+@media (max-width: 768px) {
+  .hero-title {
+    font-size: 2.5rem;
+  }
+
+  .hero-description {
+    font-size: 1rem;
+    padding: 0 1.5rem;
+  }
+}

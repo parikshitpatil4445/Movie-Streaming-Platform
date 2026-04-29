@@ -1,0 +1,129 @@
+/* Global Dashboard Background */
+.dashboard-container {
+    background-color: #141414;
+    min-height: 100vh;
+    color: #fff;
+    padding-bottom: 50px;
+}
+
+/* Tabs Styling */
+.nav-tabs {
+    border-bottom: 1px solid #333;
+}
+
+.nav-tabs .nav-link {
+    color: #8c8c8c;
+    background: transparent;
+    border: none;
+    font-size: 1.1rem;
+    font-weight: 500;
+    padding: 10px 20px;
+    transition: color 0.3s ease;
+}
+
+.nav-tabs .nav-link:hover {
+    color: #fff;
+    border: none;
+}
+
+.nav-tabs .nav-link.active {
+    color: #fff;
+    background: transparent;
+    border: none;
+    border-bottom: 3px solid #e50914;
+}
+
+/* Profile Card Styling */
+.profile-card {
+    background-color: #000;
+    /* Darker contrast */
+    border: 1px solid #333;
+    border-radius: 4px;
+    max-width: 500px;
+    margin: 0 auto;
+    /* Center it */
+    color: #fff;
+}
+
+.profile-card h4 {
+    color: #fff;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+.form-label {
+    color: #8c8c8c;
+    font-size: 0.9rem;
+}
+
+.form-control {
+    background: #333;
+    border: none;
+    color: #fff;
+    border-radius: 4px;
+    padding: 12px;
+}
+
+.form-control:focus {
+    background: #454545;
+    color: #fff;
+    box-shadow: none;
+    border: 1px solid #e50914;
+    /* Red border on focus */
+}
+
+.form-control:disabled {
+    background: #222;
+    color: #666;
+}
+
+/* Buttons */
+.btn-netflix {
+    background-color: #e50914;
+    color: #fff;
+    border: none;
+    font-weight: 700;
+    padding: 10px 20px;
+    border-radius: 4px;
+    transition: background 0.2s;
+}
+
+.btn-netflix:hover {
+    background-color: #f40612;
+}
+
+/* Movie Cards in Watchlist/History */
+.movie-card {
+    background-color: #181818;
+    border: none;
+    transition: transform 0.3s ease;
+}
+
+.movie-card:hover {
+    transform: scale(1.05);
+    z-index: 10;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+}
+
+.movie-card .card-title {
+    color: #fff;
+    font-size: 1rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.movie-card .card-text {
+    color: #8c8c8c;
+}
+
+.movie-card .btn-danger {
+    background-color: rgba(100, 100, 100, 0.5);
+    border: 1px solid #fff;
+    font-size: 0.8rem;
+}
+
+.movie-card .btn-danger:hover {
+    background-color: #e50914;
+    border-color: #e50914;
+}

@@ -1,0 +1,133 @@
+/* 🟥 Netflix Dark Background */
+.signup-page {
+  background: #141414;
+  min-height: 100vh;
+  padding: 2rem 0;
+}
+
+.signup-container {
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+/* 🔲 Dark Card */
+.signup-card {
+  background: #1f1f1f;
+  border-radius: 16px;
+  box-shadow: 0 12px 35px rgba(0,0,0,0.7);
+  padding: 2.5rem;
+  position: relative;
+  max-width: 500px;
+  width: 100%;
+  border: 1px solid #333;
+}
+
+
+
+/* Title */
+.signup-title {
+  color: #e50914;
+  font-weight: 700;
+  margin-bottom: 2rem;
+  text-align: center;
+  font-size: 2rem;
+}
+
+/* Form Input Fields */
+.signup-form .form-control {
+  background: #262626;
+  border: 1px solid #444;
+  border-radius: 10px;
+  padding: 1rem;
+  color: white;
+  transition: all 0.3s ease;
+  margin-bottom: 1rem;
+}
+
+.signup-form .form-control::placeholder {
+  color: #999;
+}
+
+.signup-form .form-control:focus {
+  background: #1f1f1f;
+  border-color: #e50914;
+  box-shadow: 0 0 8px rgba(229, 9, 20, 0.4);
+}
+
+/* Labels */
+.signup-form .form-label {
+  color: #ccc;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+/* 🔴 Netflix Button */
+.signup-btn {
+  background: #e50914;
+  border: none;
+  border-radius: 12px;
+  padding: 1rem;
+  font-weight: 600;
+  font-size: 1rem;
+  color: white;
+  width: 100%;
+  transition: all 0.3s ease;
+}
+
+.signup-btn:hover {
+  background: #b00610;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(229, 9, 20, 0.3);
+}
+
+/* Alerts */
+.signup-alert {
+  border: none;
+  border-radius: 10px;
+  padding: 1rem;
+  margin-top: 1rem;
+  font-weight: 500;
+}
+
+.signup-alert.alert-success {
+  background: rgba(33, 150, 83, 0.2);
+  color: #4caf50;
+  border-left: 4px solid #4caf50;
+}
+
+.signup-alert.alert-danger {
+  background: rgba(229, 9, 20, 0.15);
+  color: #e50914;
+  border-left: 4px solid #e50914;
+}
+
+/* Already have account link */
+.login-link {
+  text-align: center;
+  margin-top: 1.5rem;
+  color: #bbb;
+}
+
+.login-link .btn-link {
+  color: #e50914;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.login-link .btn-link:hover {
+  color: #b00610;
+  text-decoration: underline;
+}
+
+/* 📱 Responsive */
+@media (max-width: 768px) {
+  .signup-card {
+    margin: 1rem;
+    padding: 2rem 1.5rem;
+  }
+
+  .signup-title {
+    font-size: 1.75rem;
+  }
+}

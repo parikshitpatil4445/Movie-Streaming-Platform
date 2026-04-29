@@ -1,0 +1,29 @@
+/* Navbar Links */
+.nav-link {
+  color: #e5e5e5 !important;  /* Light gray default */
+  font-size: 16px;
+  margin-left: 12px;
+  position: relative;         /* Needed for underline pseudo-element */
+  transition: color 0.3s ease;
+}
+
+/* Hover effect with underline slightly below */
+.nav-link::after {
+  content: '';
+  position: absolute;
+  width: 0%;
+  height: 2px;
+  bottom: -4px;             /* Underline slightly below text */
+  left: 0;
+  background-color: #e50914; /* Red underline */
+  transition: width 0.3s ease;
+}
+
+.nav-link:hover::after,
+.nav-link.active::after {
+  width: 100%;              /* Expand underline full width */
+}
+
+.nav-link:hover {
+  color: #e50914 !important; /* Text turns red on hover */
+}
