@@ -1,0 +1,17 @@
+# Backend (Spring Boot)
+target/
+*.class
+*.log
+
+# Frontend (React)
+node_modules/
+.env
+build/
+
+# IDE files
+.project
+.settings/
+.factorypath
+
+# OS
+.DS_Store
